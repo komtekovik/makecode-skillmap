@@ -1,0 +1,6 @@
+node_modules/
+_built/
+built/
+pxt_modules/
+*.lss
+.pxt/
