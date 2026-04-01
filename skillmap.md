@@ -1,5 +1,6 @@
 # Min Spelutbildning
 
+```json
 {
   "nodes": [
     {
@@ -12,3 +13,4 @@
     }
   ]
 }
+```
