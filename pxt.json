@@ -1,0 +1,14 @@
+{
+  "name": "makecode-skillmap",
+  "version": "0.0.1",
+  "description": "",
+  "dependencies": {
+    "device": "*"
+  },
+  "files": [
+    "skillmap.md"
+  ],
+  "supportedTargets": [
+    "arcade"
+  ]
+}
