@@ -3,6 +3,9 @@
     "dependencies": {
         "device": "*"
     },
+    "supportedTargets": [
+        "arcade"
+    ],
     "files": [
         "skillmap.md",
         "tutorial-1.md"
