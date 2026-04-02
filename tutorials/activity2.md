@@ -12,3 +12,17 @@ let mySprite = sprites.create(img`
     . . . . . . . .
 `, SpriteKind.Player)
 ```
+
+Steg 2
+
+```blocks
+let mySprite = sprites.create(img`
+    . . . . . . . .
+    . . . 1 1 . . .
+    . . 1 1 1 1 . .
+    . . 1 1 1 1 . .
+    . . . 1 1 . . .
+    . . . . . . . .
+`, SpriteKind.Player)
+controller.moveSprite(mySprite)
+```
