@@ -1,4 +1,4 @@
-# Aktivitet 1
+# Aktivitet 2
 
 ## Steg 1
 
@@ -11,3 +11,4 @@ let mySprite = sprites.create(img`
     . . . 1 1 . . .
     . . . . . . . .
 `, SpriteKind.Player)
+```
