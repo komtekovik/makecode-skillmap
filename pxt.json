@@ -6,7 +6,9 @@
     "device": "*"
   },
   "files": [
-    "skillmap.md"
+    "skillmap.md",
+    "tutorials/activity1.md",
+    "tutorials/activity2.md"
   ],
   "supportedTargets": [
     "arcade"
