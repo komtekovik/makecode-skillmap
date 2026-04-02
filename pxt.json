@@ -6,10 +6,10 @@
         "device": "*"
     },
     "files": [
-    "skillmap.md",
-    "tutorials/activity1.md",
-    "tutorials/activity2.md"
-  ],
+        "skillmap.md",
+        "tutorials/activity1.md",
+        "tutorials/activity2.md"
+    ],
     "targetVersions": {
         "target": "4.0.12",
         "targetId": "arcade"
