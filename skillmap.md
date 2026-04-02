@@ -1,7 +1,7 @@
 # min-skillmap
 
 name: Min Första Skillmap
-description: En introduktion till MakeCode Arcade
+description: En introduktion till Spelprogrammering
 
 ## min-path
 
