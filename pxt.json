@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
     "name": "pxt-skillmap-sample",
     "version": "0.0.1",
+=======
+    "name": "makecode-skillmap",
+    "version": "0.0.3",
+>>>>>>> parent of fb99ad8 (testa uppdatera igen)
     "description": "",
     "dependencies": {
         "device": "*"

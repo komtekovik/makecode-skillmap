@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # sample
 * name: Game Maker Guide
 * description: Level up your game making skills by completing the tutorials in this guide.
@@ -6,13 +7,30 @@
 * name: Learn to use MakeCode Arcade
 * description: This will teach you how to complete tutorials in Microsoft MakeCode Arcade.
 * completionUrl: https://microsoft.github.io/pxt-skillmap-sample/certificates/understanding-arcade-tutorials.pdf
+=======
+# min-spelkurs
+* name: Min Spelutbildning
+* description: Här börjar äventyret med din första spelkurs.
+* layout: manual
+
+## intro
+* name: Introduktion
+* description: Grundläggande steg för att komma igång i MakeCode Arcade.
+>>>>>>> parent of fb99ad8 (testa uppdatera igen)
 
 ### interface-activity1
 
 * name: Learn to use MakeCode Arcade
 * type: tutorial
+<<<<<<< HEAD
 * description: Intro to our tutorial cards
 * tags: easy
+=======
+* description: Vi börjar med att skapa en Sprite.
+* url: https://github.com/komtekovik/makecode-skillmap/tutorial-1
+* position: 0 0
+* next: intro-activity2
+>>>>>>> parent of fb99ad8 (testa uppdatera igen)
 
 * url: https://github.com/microsoft/pxt-skillmap-sample/tutorials/interface/activity1 
 * imageUrl: https://raw.githubusercontent.com/microsoft/pxt-skillmap-sample/main/img/interface/activity1.png
@@ -26,6 +44,7 @@
 
 * name: Ship Design
 * type: tutorial
+<<<<<<< HEAD
 * description: Draw and code a spaceship!
 * tags: easy
 * next: space-activity2
@@ -121,3 +140,8 @@
 * url: https://github.com/microsoft/pxt-skillmap-sample/tutorials/platformer/activity5
 * imageUrl: https://raw.githubusercontent.com/microsoft/pxt-skillmap-sample/main/img/platformer/activity5.png
 * tags: intermediate, AI, physics
+=======
+* description: Vi testar en fil i en undermapp.
+* url: https://github.com/komtekovik/makecode-skillmap/tutorials/tutorial-2
+* position: 2 1
+>>>>>>> parent of fb99ad8 (testa uppdatera igen)
