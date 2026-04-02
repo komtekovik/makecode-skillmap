@@ -1,0 +1,10 @@
+{
+    "name": "min-spelkurs",
+    "dependencies": {
+        "device": "*"
+    },
+    "files": [
+        "skillmap.md",
+        "tutorial-1.md"
+    ]
+}
