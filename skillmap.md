@@ -3,7 +3,12 @@
 name: Min Första Skillmap
 description: En introduktion till MakeCode Arcade
 
-## min-skillmap-activity1
+## min-path
+
+name: Min Första Väg
+description: Lär dig grunderna
+
+### min-skillmap-activity1
 
 name: Aktivitet 1
 type: tutorial
@@ -12,7 +17,7 @@ tags: easy
 next: min-skillmap-activity2
 url: https://github.com/komtekovik/makecode-skillmap/blob/main/tutorials/activity1.md
 
-## min-skillmap-activity2
+### min-skillmap-activity2
 
 name: Aktivitet 2
 type: tutorial
