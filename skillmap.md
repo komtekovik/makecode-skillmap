@@ -10,4 +10,10 @@
 * name: Första Steget
 * type: tutorial
 * description: Vi börjar med att skapa en Sprite.
-* url: tutorial-1.md
+* url: https://github.com/komtekovik/makecode-skillmap/tutorial-1
+
+### intro-activity2
+* name: Andra Steget
+* type: tutorial
+* description: Vi testar en fil i en undermapp.
+* url: https://github.com/komtekovik/makecode-skillmap/tutorials/tutorial-2
