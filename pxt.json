@@ -1,14 +1,19 @@
 {
-  "name": "makecode-skillmap",
-  "version": "0.0.1",
-  "description": "",
-  "dependencies": {
-    "device": "*"
-  },
-  "files": [
-    "skillmap.md"
-  ],
-  "supportedTargets": [
-    "arcade"
-  ]
+    "name": "makecode-skillmap",
+    "version": "0.0.1",
+    "description": "",
+    "dependencies": {
+        "device": "*"
+    },
+    "files": [
+        "skillmap.md"
+    ],
+    "targetVersions": {
+        "target": "4.0.12",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj"
 }
