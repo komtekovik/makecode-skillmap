@@ -74,4 +74,4 @@ for (let index = 0; index < 4; index++) {
 ```
 
 ## Färdigt! @showdialog
-Snyggt jobbat! Nu har din figur en helt egen värld att springa runt i, full med färg och massor av roliga saker. ✨
+Snyggt jobbat! Nu har din figur en helt egen värld att springa runt i. ✨
