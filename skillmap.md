@@ -14,13 +14,13 @@
 * type: tutorial
 * description: Skapa din första sprite
 * tags: easy
-* next: min-skillmap-activity2
-* url: https://github.com/komtekovik/makecode-skillmap/tutorials/activity1
+* next: background
+* url: https://github.com/komtekovik/makecode-skillmap/tutorials/sprite
 
-### min-skillmap-activity2
+### background
 
 * name: Aktivitet 2
 * type: tutorial
 * description: Lägg till rörelse
 * tags: medium
-* url: https://github.com/komtekovik/makecode-skillmap/tutorials/activity2
+* url: https://github.com/komtekovik/makecode-skillmap/tutorials/background

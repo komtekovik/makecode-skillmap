@@ -1,14 +1,14 @@
 {
     "name": "makecode-skillmap",
-    "version": "0.0.2-alpha",
+    "version": "0.0.6-alpha",
     "description": "",
     "dependencies": {
         "device": "*"
     },
     "files": [
         "skillmap.md",
-        "tutorials/activity1.md",
-        "tutorials/activity2.md"
+        "tutorials/sprite.md",
+        "tutorials/background.md"
     ],
     "targetVersions": {
         "target": "4.0.12",

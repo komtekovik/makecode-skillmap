@@ -74,4 +74,4 @@ controller.moveSprite(mySprite, 200, 200)
 ```
 
 ## Färdigt! @showdialog
-Helt fantastiskt jobbat! Du vet nu vad en **Sprite** är, hur **koordinater** fungerar och hur man ändrar **farten** (vx och vy). Nu är du en riktig spelprogrammerare! 🏆
+Helt fantastiskt jobbat! Du vet nu vad en **Sprite** är, hur **koordinater** fungerar och hur man ändrar **farten** (vx och vy). 🏆
