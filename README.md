@@ -1,1 +1,1 @@
-https://arcade.makecode.com/--skillmap#github:komtekovik/makecode-skillmap
+https://arcade.makecode.com/--skillmap#github:komtekovik/makecode-skillmap#main
