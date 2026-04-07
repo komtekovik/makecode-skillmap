@@ -1,6 +1,6 @@
 {
     "name": "makecode-skillmap",
-    "version": "0.0.12-alpha",
+    "version": "0.0.13-alpha",
     "description": "",
     "dependencies": {
         "device": "*"
