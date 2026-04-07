@@ -15,12 +15,12 @@
 * description: Skapa din första sprite
 * tags: easy
 * next: background
-* url: https://github.com/komtekovik/makecode-skillmap/tutorials/sprite
+* url: /tutorials/sprite
 
 ### background
 
-* name: Aktivitet 2
+* name: Background
 * type: tutorial
-* description: Lägg till rörelse
+* description: Placera din hjälte i en miljö
 * tags: medium
-* url: https://github.com/komtekovik/makecode-skillmap/tutorials/background
+* url: /tutorials/background
