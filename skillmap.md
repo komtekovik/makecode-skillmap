@@ -19,7 +19,7 @@
 
 ### background
 
-* name: Aktivitet 2
+* name: Background
 * type: tutorial
 * description: Lägg till rörelse
 * tags: medium
