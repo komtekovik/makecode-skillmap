@@ -1,16 +1,16 @@
-# min-skillmap
+# grundkurs
 
-* name: Min Första Skillmap
+* name: Spelprogrammeringens grunder
 * description: En introduktion till spelprogrammering
 
-## min-path
+## grundernas grunder
 
-* name: Min Första Väg
+* name: Grunder
 * description: Lär dig grunderna
 
-### min-skillmap-activity1
+### sprite
 
-* name: Aktivitet 1
+* name: Sprite
 * type: tutorial
 * description: Skapa din första sprite
 * tags: easy
