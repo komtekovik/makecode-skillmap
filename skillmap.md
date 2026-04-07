@@ -15,7 +15,7 @@
 * description: Skapa din första sprite
 * tags: easy
 * next: min-skillmap-activity2
-* url: https://github.com/komtekovik/makecode-skillmap/tutorials/activity1
+* url: https://github.com/komtekovik/makecode-skillmap/tutorials/sprite
 
 ### min-skillmap-activity2
 
