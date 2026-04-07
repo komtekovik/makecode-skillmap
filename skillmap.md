@@ -15,7 +15,7 @@
 * description: Skapa din första sprite
 * tags: easy
 * next: background
-* url: /tutorials/sprite
+* url: https://github.com/komtekovik/makecode-skillmap/tutorials/sprite
 
 ### background
 
@@ -23,4 +23,4 @@
 * type: tutorial
 * description: Placera din hjälte i en miljö
 * tags: medium
-* url: /tutorials/background
+* url: https://github.com/komtekovik/makecode-skillmap/tutorials/background
