@@ -3,7 +3,7 @@
 ## Steg 1: Skapa din hjälte
 En **Sprite** är en levande del av spelet, till exempel din spelkaraktär! 👾 
 
-Dra ut `||sprites:set hero to sprite [ ] of kind Player||` och lägg den i `||loops:on start||`. Klicka på den grå rutan för att rita din figur.
+Dra ut `||sprites:set mySprite to sprite [ ] of kind Player||` och lägg den i `||loops:on start||`. Eftersom vår figur ska vara en hjälte vill vi döpa den till det! Klicka på ordet `mySprite` på blocket, välj **Rename variable...** och skriv in **hero**. Klicka sedan på den grå rutan för att rita din figur.
 
 ```blocks
 let hero = sprites.create(img`
