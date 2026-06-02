@@ -1,18 +1,9 @@
 # Ge din hjälte en miljö
 
-```template
-let hero: Sprite = null
-hero = sprites.create(img`.`, SpriteKind.Player)
-hero.setPosition(80, 60)
-hero.setFlag(SpriteFlag.ShowPhysics, true)
-controller.moveSprite(hero, 200, 200)
-```
+## Steg 1: Scen (Scene)
+**Koncept:** **Scenen** är själva bakgrunden i spelet. Den ligger alltid längst bak, helt oberoende av dina rörliga **Sprite-objekt**.
 
-## Steg 1: Bakgrundsbild
-Nu svävar din figur i ett svart hål! Låt oss måla hela skärmen. Vill du rita en egen värld? Kanske en skog, en stad eller yttre rymden? 🌌
-
-Gå till **Scene**, hämta `||scene:set background image to [ ]||` och sätt det högst upp i din kod. Klicka på den grå rutan och rita din drömvärld!
-
+**Instruktioner:** Gå till **Scene**, hämta `||scene:set background image to [ ]||` och lägg det allra högst upp. Klicka på den grå rutan och rita din bakgrund.
 ```blocks
 scene.setBackgroundImage(img`.`)
 let hero: Sprite = null
@@ -22,12 +13,12 @@ hero.setFlag(SpriteFlag.ShowPhysics, true)
 controller.moveSprite(hero, 200, 200)
 ```
 
-## Steg 2: Dekorera med sprites
-Världen ser lite tom ut. Vi kan ställa ut roliga saker i den, som ett träd eller en sten! 🌳🪨
+**Kort förklaring:** Nu har du en fast bakgrundsbild som ligger helt stilla medan dina **Sprites** rör sig framför den.
 
-Hämta ett nytt sprite-block: `||sprites:set pynt to sprite [ ] of kind Player||`. Sätt det längst ner. 
-Ett träd är ju varken en spelare eller mat. Klicka på ordet `Player` på blocket, välj **Add a new kind...** och döp den till **Pynt**! Klicka sedan på rutan och rita ditt pynt.
+## Steg 2: Klasser och Typer (SpriteKind)
+**Koncept:** En **Typ** (Kind) talar om för spelmotorn vilken kategori en specifik **Sprite** tillhör.
 
+**Instruktioner:** Hämta ett nytt `||sprites:set mySprite to sprite [ ] of kind Player||` och lägg det längst ner. Klicka på `Player`, välj **Add a new kind...** och döp den till **Pynt**. Rita sedan ditt pynt i rutan.
 ```blocks
 scene.setBackgroundImage(img`.`)
 let hero: Sprite = null
@@ -38,12 +29,12 @@ controller.moveSprite(hero, 200, 200)
 let pynt = sprites.create(img`.`, SpriteKind.Pynt)
 ```
 
-## Steg 3: Slumpmässig plats 🎲
-Nu hamnar ditt pynt mitt på skärmen. Låt oss be datorn lägga det på en hemlig, slumpmässig plats! Eftersom spelskärmen är exakt 160 pixlar bred och 120 pixlar hög, kan vi använda de siffrorna för att täcka hela ytan.
+**Kort förklaring:** När spelet vet att din nya **Sprite** (som sparas i **variabeln** `pynt`) är av **typen** "Pynt", kan du senare bygga regler för vad som händer när detta **objekt** krockar med andra **typer**.
 
-Hämta `||sprites:set pynt position to x [ ] y [ ]||` och sätt det under ditt pynt.
-Gå sedan till **Math**, hämta blocket `||math:pick random 0 to 10||` och sätt in i både X och Y. Ändra sista siffran till **160** för X och **120** för Y. Klicka på omstartsknappen i simulatorn några gånger för att se hur pyntet hoppar runt!
+## Steg 3: Slumptal
+**Koncept:** Ett **slumptal** är när datorn lottar fram en siffra, istället för att du skriver in en fast **parameter**.
 
+**Instruktioner:** Hämta `||sprites:set pynt position to x [ ] y [ ]||` och lägg det under pyntet. Gå till **Math**, hämta blocket `||math:pick random 0 to 10||` och lägg ett i X och ett i Y. Ändra högsta siffran till **160** på X och **120** på Y.
 ```blocks
 scene.setBackgroundImage(img`.`)
 let hero: Sprite = null
@@ -55,11 +46,12 @@ let pynt = sprites.create(img`.`, SpriteKind.Pynt)
 pynt.setPosition(randint(0, 160), randint(0, 120))
 ```
 
-## Steg 4: Massor av pynt!
-Vill du ha mer än en sak? Vi kan be datorn göra kopior snabbt som blixten med en loop! 🪄
+**Kort förklaring:** Genom att använda **slumptal** lottar datorn fram nya **X- och Y-koordinater**. Ditt nya **Sprite-objekt** dyker då upp på en ny plats varje gång.
 
-Gå till **Loops**, hämta blocket `||loops:repeat 4 times||`. Dra det blocket så att det hamnar **runt** dina två sista block (både skapandet av pyntet och positionen ska vara inuti). Nu ritar datorn ut 4 stycken på helt olika platser!
+## Steg 4: Loopar (Iteration)
+**Koncept:** En **loop** gör att koden körs om och om igen. Detta gör att du slipper skriva exakt samma block flera gånger.
 
+**Instruktioner:** Gå till **Loops** och hämta `||loops:repeat 4 times||`. Sätt loopen så att den ramar in dina två sista block.
 ```blocks
 scene.setBackgroundImage(img`.`)
 let hero: Sprite = null
@@ -73,5 +65,4 @@ for (let index = 0; index < 4; index++) {
 }
 ```
 
-## Färdigt! @showdialog
-Snyggt jobbat! Nu har din figur en helt egen värld att springa runt i. ✨
+**Kort förklaring:** Koden upprepas nu fyra gånger på raken. Varje gång skapas ett nytt **Sprite-objekt** som får unika **koordinater** via **slumptal**. Du får direkt fyra pynt på skärmen!

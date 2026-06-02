@@ -1,6 +1,6 @@
 {
     "name": "makecode-skillmap",
-    "version": "0.0.15-alpha",
+    "version": "0.0.16-alpha",
     "description": "",
     "dependencies": {
         "device": "*"
@@ -11,7 +11,7 @@
         "tutorials/background.md"
     ],
     "targetVersions": {
-        "target": "4.0.12",
+        "target": "4.0.14",
         "targetId": "arcade"
     },
     "supportedTargets": [
