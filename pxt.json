@@ -8,7 +8,8 @@
     "files": [
         "skillmap.md",
         "tutorials/sprite.md",
-        "tutorials/background.md"
+        "tutorials/background.md",
+        "tutorials/collect.md"
     ],
     "targetVersions": {
         "target": "4.0.14",

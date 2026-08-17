@@ -23,4 +23,13 @@
 * type: tutorial
 * description: Placera din hjälte i en miljö
 * tags: medium
+* next: collect
 * url: https://github.com/komtekovik/makecode-skillmap/tutorials/background
+
+### collect
+
+* name: Samla poäng
+* type: tutorial
+* description: Lär dig hur du samlar föremål och räknar poäng
+* tags: easy
+* url: https://github.com/komtekovik/makecode-skillmap/tutorials/collect
